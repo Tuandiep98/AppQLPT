@@ -46,7 +46,7 @@ class _DashboardPageState extends State<DashboardPage>{
   {
     return Scaffold
       (
-        appBar: AppBar
+        /*appBar: AppBar
           (
           elevation: 2.0,
           backgroundColor: Colors.white,
@@ -68,7 +68,7 @@ class _DashboardPageState extends State<DashboardPage>{
               ),
             )
           ],
-        ),
+        ),*/
         body: StaggeredGridView.count(
           crossAxisCount: 2,
           crossAxisSpacing: 12.0,
@@ -325,5 +325,4 @@ class _DashboardPageState extends State<DashboardPage>{
         )
     );
   }
-
 }

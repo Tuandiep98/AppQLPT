@@ -3,11 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:house_manager2/src/app.dart';
 import 'package:house_manager2/src/colors/buttons.dart';
-import 'package:house_manager2/src/fire_base/fire_base_auth.dart';
-import 'package:house_manager2/src/models/user.dart';
-import 'package:house_manager2/src/resource/Login_page.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:smooth_star_rating/smooth_star_rating.dart';
 
 class MePage extends StatefulWidget{
   @override
@@ -38,7 +34,7 @@ class _MePageState extends State<MePage>{
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Color(0xffF4F7FA),
-        appBar: AppBar
+        /*appBar: AppBar
           (
           elevation: 2.0,
           backgroundColor: Colors.white,
@@ -60,7 +56,7 @@ class _MePageState extends State<MePage>{
               ),
             )
           ],
-        ),
+        ),*/
         body: Container(
           alignment: AlignmentDirectional.bottomCenter,
           child: ListView(

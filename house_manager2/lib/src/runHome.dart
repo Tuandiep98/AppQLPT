@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:house_manager2/src/models/user.dart';
 import 'package:house_manager2/src/resource/Dashboard_page.dart';
 import 'package:house_manager2/src/resource/Home_page.dart';
+import 'package:house_manager2/src/resource/House_items_page.dart';
 import 'package:house_manager2/src/resource/House_page.dart';
 import 'package:house_manager2/src/resource/Me_page.dart';
 import 'package:house_manager2/src/resource/Product_page.dart';

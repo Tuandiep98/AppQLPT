@@ -9,6 +9,7 @@ import 'package:house_manager2/src/fire_base/fire_base_auth.dart';
 import 'package:house_manager2/src/resource/Dashboard_page.dart';
 import 'package:house_manager2/src/resource/Home_page.dart';
 import 'package:house_manager2/src/resource/House_items_page.dart';
+import 'package:house_manager2/src/resource/House_page.dart';
 import 'package:house_manager2/src/resource/Login_page.dart';
 import 'package:house_manager2/src/resource/dialog/loading_dialog.dart';
 import 'package:house_manager2/src/resource/dialog/msg_dialog.dart';
@@ -163,7 +164,8 @@ class _AddHousePageState extends State<AddHousePage> {
         //hide dialog
         LoadingDialog.hideLoadingDialog(context);
         //navigator to new page
-        Navigator.push(context, MaterialPageRoute(builder: (context) => new RunHome()));
+        Navigator.push(context, MaterialPageRoute(builder: (context) => AddHousePage()));
+        MsgDialog.showMsgDialog(context, "Create House success", 'Successfully!');
       },(msg){
         //hide dialog
         //LoadingDialog.hideLoadingDialog(context);
